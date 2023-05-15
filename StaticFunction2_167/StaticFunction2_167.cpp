@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <string>
 using namespace std;
@@ -42,8 +43,10 @@ int main() {
 	mhs3.printAll();
 	mhs4.printAll();
 
+
 	cout << "akses dari luar object = " << mahasiswa::getNim() << endl;  // mengakses Nim melalui static member function "getNim"
 	system("pause");
+
 
 	return 0;
 }
