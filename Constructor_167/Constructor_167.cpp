@@ -2,7 +2,8 @@
 #include <string>
 using namespace std;
 
-class mahasiswa {
+class mahasiswa 
+{
 private:
 	int nim;
 	string nama;
@@ -16,26 +17,31 @@ public:
 
 };
 
-mahasiswa::mahasiswa() {
+mahasiswa::mahasiswa()
+{
 	nim = 0;
 	nama = "";
 }
 
-mahasiswa::mahasiswa(int iNim) {
+mahasiswa::mahasiswa(int iNim)
+{
 	nim = iNim;
 }
 
-mahasiswa::mahasiswa(int iNim, string iNama) {
+mahasiswa::mahasiswa(int iNim, string iNama)
+{
 	nim = iNim;
 	nama = iNama;
 }
 
-void mahasiswa::cetak() {
+void mahasiswa::cetak() 
+{
 	cout << endl << "Nim =" <<nim<< endl;
 	cout << endl << "Nama =" <<nama<< endl;
 }
 
-int main() {
+int main() 
+{
 	mahasiswa mhs1;
 	mahasiswa mhs2(20);
 	mahasiswa mhs3("Indra");
